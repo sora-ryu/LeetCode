@@ -29,5 +29,7 @@ class Solution:
             tmp.next = ListNode(merged[i])
             tmp = tmp.next
         
+        ### We don't have to update the answer since it's a temporary placeholder used to store the start of the merged list. In this solution, the tmp pointer which stores the answer pointer is getting updated. ###
+        
         return answer.next
         
