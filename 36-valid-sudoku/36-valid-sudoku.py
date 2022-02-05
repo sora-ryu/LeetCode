@@ -7,6 +7,6 @@ class Solution:
                     seen += [(num,j),(i,num),(i//3,j//3,num)] 
                     # (num,j) - Column
                     # (i,num) - Row
-                    # (i/3,j/3,num) - 3x3 sub-box: 0,1,2 divide by 3 -> all 0
-        print(seen)
+                    # (i//3,j//3,num) - 3x3 sub-box: 0,1,2 divide by 3 -> all 0
+        
         return len(seen) == len(set(seen))  # Return false if two lengths are different which means that duplication occured.
