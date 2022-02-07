@@ -33,7 +33,6 @@ class Solution:
                 find.append(matrix[i][j_start])
             j_start += 1
             
-            print(find)
             
         return find
         
