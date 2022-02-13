@@ -10,6 +10,6 @@ class Solution:
         # k = 3
         for i in range(k):
             tmp = nums[-1]
-            nums.pop()
+            nums.pop()  # By default, pop without any arguments removes the last item (nums.remove(tmp) => made an error)
             nums.insert(0, tmp)
             # print(nums)
