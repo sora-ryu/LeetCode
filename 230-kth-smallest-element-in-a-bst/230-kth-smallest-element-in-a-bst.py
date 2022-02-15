@@ -8,7 +8,8 @@ class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         
         # Use the information that the binary tree is already sorted!
-        
+        # Inorder : Left -> Node -> Right
+        # Thus, the returned array is already sorted.
         def search(root) -> int:
             ans = []
             if not root:
