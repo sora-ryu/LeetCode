@@ -5,7 +5,10 @@ class Solution:
         # each array is already sorted
         # the lengths of each array are all the same?
         # the range of k?
-
+        
+        # Time complexity of sorting an array of size n^2 is O(n^2 * log n)
+        # Space complexity is O(n^2)
+        
         result = []
         # for each array in matrix:
         for array in matrix:  
